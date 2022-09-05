@@ -1,0 +1,500 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.first-section{
+    font-family:  CoinbaseSans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+.header{
+    position: fixed;
+    background-color: white;
+    display: flex;
+    width: 100%;
+    height: 70px;
+    
+
+}
+
+.header-logo{
+    width: 236px;
+    margin-left: 170px;
+    height: 40px;
+    margin-top: 25px;
+
+}
+
+.coinbase-logo{
+    width: 112px;
+    height: 20px;
+
+}
+
+.header-menu{
+    margin-top: 25px;
+    width: 708px;
+    height: 66px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    font-family:  CoinbaseSans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.sign-section{
+margin-top: 20px;
+display: flex;
+margin-left: 53px;
+}
+
+.sign-in-button{
+    margin-top: 7px;
+    border: none;
+    background-color: white;
+    font-size: 15px;
+    font-weight: 550;
+    margin-right: 20px;
+}
+
+.get-started-button{
+    margin-top: -3px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 12px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: #0052ff;
+}
+
+.hr{
+    color: #eeeeee;
+}
+
+.first-section-left{
+    display: flex;
+    flex-direction: column;
+    margin-top: 124px;
+    /* width: 50%; */
+    padding-left: 240px;
+}
+
+.fs-head1{
+    display: flex;
+}
+
+.bitcoin{
+    width: 24px;
+    height: 24px;
+}
+
+.head1{
+    margin-left: 6px;
+    margin-top: 2px;
+    color: #0052ff;
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+    font-family:  CoinbaseSans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.right-arrow{
+    margin-top: 6px;
+    margin-left: 4px;
+}
+
+.fs-head2{
+    margin-top: 20px;
+    width: 400px;
+}
+.head2{
+    font-size: 62px;
+    font-weight: 640;
+    line-height: 70px;
+}
+
+.fs-head3{
+    width: 450px;
+    margin-top: 40px;
+    font-size: 16px;
+    font-family:  CoinbaseSans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.fs-email{
+    display: flex;
+    margin-top: 30px;
+}
+
+.email-box{
+    width: 275px;
+    height: 68px;
+    border: 1px solid #d2cdcd;
+    font-size: 17px;
+    padding-left: 25px;
+    border-radius: 6px;
+}
+.email-get-started{
+    width: 188px;
+    height: 68px;
+    margin-left: 20px;
+    font-size: 17px;
+    border: none;
+    border-radius: 6px;
+    background-color: #0052ff;
+    color: white;
+    font-weight: 600;
+}
+
+.first-section-right{
+    height: 640px;
+    display: flex;
+    padding-left: 25px;
+    padding-top: 40px;
+    margin-top: -530px;
+    margin-left: 750px;
+}
+
+
+.fs-right-image{
+    width: 250px;
+    height: 200px;
+}
+
+
+.price-chart{
+    width: 70px;
+    height: 22px;
+}
+
+
+.Crypto-Logo{
+    width: 36px;
+    height: 36px;
+}
+
+.second-section{
+    margin-top: 200px;
+    width: 1200px;
+    margin-left: 183px;
+}
+.table{
+    width: 100%;
+    padding: 0px;
+    border-spacing: 0px;
+    border-radius: 10px;
+    border-collapse: collapse;
+    border: 0.5px solid rgb(223, 219, 219);
+    font-family: CoinbaseSans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+tr{
+
+    border-bottom: 0.5px solid rgb(223, 219, 219);
+}
+
+.table thead tr td{
+    font-size: 16px;
+    color: grey;
+    padding: 15px;
+}
+
+.table tbody tr td{
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+
+.crypto-name{
+    margin-top: -34px;
+    margin-left: 50px;
+}
+.table tbody tr .t-r6{
+    padding: 10px 15px;
+    background-color: #129961;
+    color: white;
+    border: none;
+    font-weight: 550;
+    font-size: 16px;
+    border-radius: 5px;
+
+}
+
+.third-section{
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 140px;
+    margin-left: 111px;
+}
+.ts-content{
+    display: flex;
+}
+.ts-head1{
+    font-family: CoinbaseDisplay, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.ts-text1{
+    font-family: CoinbaseDisplay, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 43px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.ts-text2{
+    text-align: center;
+    margin-top: 27px;
+    letter-spacing: 1px;
+    font-family: CoinbaseDisplay, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 17px;
+    color: #5b616e;
+    font-weight: 600;
+
+}
+
+.ts-left-section {
+    margin-left: 103px;
+    margin-top: 100px;
+}
+
+.icon-ts-button{
+    border: none;
+    border-radius: 50%;
+    height: 88px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0px 0px 5px -3px rgb(0 0 0);
+    align-items: center;
+    width: 90px;
+} 
+.ts-row{
+    font-family: CoinbaseDisplay, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    margin-top: 73px;
+    width: 65%;
+}
+
+.ts-row-text{
+
+    margin-left: 129px;
+    margin-top: -92px;
+}
+
+
+.row-text2 {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #5b616e;
+}
+
+.row-text1 {    
+
+    font-weight: 700;
+    font-size: 25px;
+}
+
+
+.ts-right-section-image{
+    height: 617px;
+    width: 700px;
+    margin-top: 68px;
+    margin-left: -160px;
+}
+
+.fourth-section{
+    margin-top: 100px;
+    font-family: CoinbaseSans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.fours-content{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.fours-left-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 25%;
+    margin-right: 150px;
+}
+
+.fours-right-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 25%;
+}
+
+.fours-head1 {
+    margin-top: 20px;
+}
+
+.fours-text2{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #5b616e;
+}
+
+.fours-left-section-learn-more{
+    margin-top: 50px;
+    font-weight: 900;
+
+}
+
+.learn-more-icon{
+    margin-left: 5px;
+}
+
+.fifth-section{
+    font-family:CoinbaseSans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    margin-top: 200px;
+    background-color: #0052ff;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.volume-traded{
+    padding: 50px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+
+.fifths-text1{
+    color: white;
+    font-size: 30px;
+}
+
+.fifths-text2{
+    margin-top: 20px;
+    color:rgb(127, 166, 251);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.fifth-content{
+    display: flex;
+    margin-left: -60px;
+}
+
+.sixth-section{
+    margin-top: 100px;
+    font-family: CoinbaseSans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.sixth-content{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 200px 100px 200px;
+    text-align: center;
+    height: 150px;
+}
+
+.sixth-icon-para{
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.sixth-icon{
+    height: 60px;
+    width: 60px;
+}
+
+.footer-row1{
+    margin-left: 200px;
+    width: 200px;
+}
+
+.social-media{
+
+    text-decoration: none;
+
+}
+
+.dot{
+    margin: 0px 6px;
+    color: black;
+}
+
+.footer-row1-social{
+    display: flex;
+}
+
+.select{
+    margin-top: 20px;
+    padding-right: 50px;
+    border-radius: 6px;
+    height: 33px;
+    border: 1px solid #b6b6ba;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.copyright{
+    margin-top: 20px;
+}
+
+.footer{
+    display: flex;
+    height: 900px;
+    font-family: CoinbaseSans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.social-media{
+    margin-top: 20px;
+    font-size: 16px;
+    color: #537ba3;
+}
+.social-link:hover{
+    color: #477ae7;
+    text-decoration: underline;
+}
+.dot{
+    margin-top: 20px;
+}
+
+.footer-row2{
+    margin-left: 180px;
+}
+
+
+
+.footer-row3{
+    margin-left: 50px;
+}
+
+.footer-row4{
+    margin-left: 85px;
+
+}
+
+a{
+    text-decoration: none;
+    color: #5b616e;
+}
+
+.footer-head{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-row2-1{
+    margin-top: 20px;
+}
+
+li{
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 550;
+}
